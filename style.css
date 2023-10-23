@@ -1,10 +1,13 @@
 body {
-    background-color: #181928; 
+    background-color: #000000; 
     color: #e4e3e3;
     font-family: 'monospace';
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
+    position: fixed;
+    
 }
 
 html {overflow: hidden;}
@@ -14,6 +17,9 @@ html {overflow: hidden;}
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
+    position: fixed;
+
 }
 
 #start {
@@ -75,6 +81,9 @@ h1, h2, h3, h4, h5, h6, p {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
       
