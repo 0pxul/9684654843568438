@@ -1,5 +1,5 @@
 body {
-    background-color: #000000; 
+    background-color: #0e0b0e; 
 
     color: #e4e3e3;
     font-family: 'monospace';
@@ -22,7 +22,7 @@ html {overflow: hidden;}
     z-index: -10;
     opacity: 40%;
     left: 54%;
-    top: 60%;
+    top: 50%;
     scale: 110%;
     transform: translate(-45%, -45%);
 }
@@ -36,7 +36,7 @@ html {overflow: hidden;}
 .main, .startbtn {
 	position: fixed;
 	text-align: center;
-	top: 80%;
+	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
