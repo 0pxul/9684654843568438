@@ -20,11 +20,17 @@ html {overflow: hidden;}
     min-width: 100%;
     min-height: 100%;
     z-index: -10;
-    opacity: 50%;
-    left: 50%;
-    top: 50%;
+    opacity: 40%;
+    left: 54%;
+    top: 60%;
     scale: 110%;
     transform: translate(-45%, -45%);
+}
+
+.bgvideo {
+  position: absolute;
+  top: 0;
+  left: 30;
 }
 
 .main, .startbtn {
@@ -103,7 +109,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-style: normal;
     color: #87cdd0;
     text-align: center;
-    -webkit-animation: d11glow 1s ease-in-out infinite alternate;
+    -webkit-animation: d11glow s ease-in-out infinite alternate;
     -moz-animation: d11glow 1s ease-in-out infinite alternate;
     animation: d11glow 1s ease-in-out infinite alternate;
   }
@@ -130,10 +136,10 @@ h1, h2, h3, h4, h5, h6, p {
   
   @-webkit-keyframes d11gloww {
     from {
-      text-shadow: 0 0 10px #3b3b3b, 0 0 20px #464646, 0 0 30px #353535;
+      text-shadow: 0 0 10px #9e9e9e, 0 0 20px #b9b9b9, 0 0 30px #b7b7b7;
     }
     to {
-      text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+      text-shadow: 0 0 20px #212121, 0 0 30px #313131, 0 0 40px rgb(41, 41, 41);
     }
   }
 
