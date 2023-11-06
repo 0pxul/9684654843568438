@@ -98,38 +98,33 @@ h1, h2, h3, h4, h5, h6, p {
       
 
 
-  .glow2 {
-    font-size: 16px !important;
-    font-family: monospace;
-    font-style: normal;
-    position: fixed;
-    text-align: center;
-    top: 15%;
-    left: 20%;
-    color: #000000;
-    -webkit-animation: glow2 1s ease-in-out infinite alternate;
-    -moz-animation: glow2 1s ease-in-out infinite alternate;
-    animation: glow2 1s ease-in-out infinite alternate;
 
-  }
-  
-  @-webkit-keyframes glow2 {
-    from {
-      text-shadow: 0 0 10px #ea3396, 0 0 20px #ea3396, 0 0 30px #ea3396;
-    }
-    to {
-      text-shadow: 0 0 20px #f19e6f, 0 0 30px #f19e6f, 0 0 40px #f19e6f;
-    }
-    to {
-      text-shadow: 0 0 20px #ffffa5, 0 0 30px #ffffa5, 0 0 40px #ffffa5;
-    }
-    to {
-      text-shadow: 0 0 20px #75fba2, 0 0 30px #75fba2, 0 0 40px #75fba2;
-    }
-    to {
-      text-shadow: 0 0 20px #4396f7, 0 0 30px #4396f7, 0 0 40px #4396f7;
-    }
-    to {
-      text-shadow: 0 0 20px #8c1af5, 0 0 30px #8c1af5, 0 0 40px #8c1af5;
-    }
-  }
+.sidenav {
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 20; 
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 100px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  font-family: monospace;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff;
+}
+
+
+.sidenav a:hover {
+  color: #6d6d6d;
+  text-shadow: 0 0 10px #727272, 0 0 20px #727272, 0 0 30px #727272;
+}
+
+
