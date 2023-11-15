@@ -8,3 +8,8 @@
   HUGE credit to scot.wtf for the continue script lol
 </h1>
 
+<h2>
+<a href="https://added1t.github.io/9684654843568438/">
+  https://added1t.github.io/9684654843568438/
+</a>
+</h2>
