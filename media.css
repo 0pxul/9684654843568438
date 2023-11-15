@@ -1,0 +1,179 @@
+body {
+    background-color: #000000; 
+
+    color: #e4e3e3;
+    font-family: 'monospace';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    object-fit: cover;
+    position: fixed;
+    
+}
+
+
+#content {
+    display:none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    position: fixed;
+
+
+}
+
+#start {
+    display:block;
+}
+
+.bgvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.bg {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    opacity: 50%;
+    left: 50%;
+    top: 50%;
+    scale: 110%;
+    transform: translate(-45%, -45%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main, .startbtn {
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    font-family: 'monospace';
+}
+
+a {
+	color: #e4e3e3;
+	text-decoration: none;
+    cursor: pointer;
+}
+a:hover {color: #ffffff;}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0; 
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 90%;
+    text-align: center;
+    display:inline-block;
+}
+
+.glow {
+    font-size: 16px !important;
+    font-family: monospace;
+    font-style: normal;
+    color: #46a8a0;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #46a8a0, 0 0 20px #46a8a0, 0 0 30px #46a8a0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .glow hr{
+    font-size: 16px !important;
+    font-family: monospace;
+    font-style: normal;
+    color: #46a8a0;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #46a8a0, 0 0 20px #46a8a0, 0 0 30px #46a8a0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+      
+
+
+
+.sidenav {
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 400; 
+  left: 0;
+  padding-top: 700px;
+}
+
+
+.sidenav a {
+  padding: 0px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  font-family: monospace;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff;
+}
+
+
+.sidenav a:hover {
+  color: #6d6d6d;
+  text-shadow: 0 0 10px #727272, 0 0 20px #727272, 0 0 30px #727272;
+}
+
+
+.glow2 {
+  font-size: 16px !important;
+  font-family: monospace;
+  font-style: normal;
+  color: #712d7a;
+  text-align: center;
+  align-items: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #712d7a, 0 0 20px #712d7a, 0 0 30px #712d7a;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.glow2 hr {
+  font-size: 16px !important;
+  font-family: monospace;
+  font-style: normal;
+  color: #712d7a;
+  background-color: #712d7a;
+  text-align: center;
+  align-content: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #712d7a, 0 0 20px #712d7a, 0 0 30px #712d7a;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+hr{
+  height: 1px;
+  background-color: #46a8a0;
+  border: none;
+}
