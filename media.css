@@ -6,8 +6,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    object-fit: cover;
-    position: fixed;
     
 }
 
@@ -176,4 +174,24 @@ hr{
   height: 1px;
   background-color: #46a8a0;
   border: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #474747;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #272727;
 }

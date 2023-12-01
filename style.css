@@ -101,13 +101,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 .sidenav {
   height: 100%; 
-  width: 150px; 
+  width: 180px; 
   position: fixed; 
   z-index: 1; 
   top: 400; 
   left: 10;
   overflow-x: hidden; 
-  padding-top: 700px;
+  padding-top: 650px;
 }
 
 
@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .sidenav a:hover {
-  color: #962020;
-  text-shadow: 0 0 10px #962020, 0 0 20px #962020, 0 0 30px #962020;
+  color: #ff02d5;
+  text-shadow: 0 0 10px #ff02d5, 0 0 20px #ff02d5, 0 0 30px #ff02d5;
 }
 
 
