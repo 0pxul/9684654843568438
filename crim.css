@@ -20,6 +20,7 @@ html {overflow: auto;}
     position: fixed;
 
 
+
 }
 
 #start {
@@ -38,7 +39,7 @@ html {overflow: auto;}
     min-width: 100%;
     min-height: 100%;
     z-index: -10;
-    opacity: 50%;
+    opacity: 40%;
     left: 50%;
     top: 50%;
     scale: 110%;
