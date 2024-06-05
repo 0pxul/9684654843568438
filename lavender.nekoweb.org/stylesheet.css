@@ -1,0 +1,188 @@
+body{
+font-family:, ms gothic;
+font-size:15px;
+color:#505050;
+background-image:url("../file.garden/ZkRD3wbiZDsBIZnn/field-grass-in-the-wind_800.gif");
+background-size:cover;
+background-attachment: fixed;
+padding:10px;
+overflow:auto;
+  --sb-track-color: #000000;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 10px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 17;
+  margin-top: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	   font-weight: normal;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	text-align: center;
+}
+
+marquee {
+  background-color: white;
+	border:2px solid #ccdbfd;
+	box-shadow: 0 0 15px 0 #ccdbfd; 
+  margin-bottom:10px;
+  padding: 5px;
+}
+
+footer {
+  border:none;
+  border-radius:5px;
+  padding:0;
+  font-weight:bold;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  text-align:center;
+}
+
+/*note to self: format this stuff... later. */
+#container {
+                max-width: 900px;
+                /* if you change the above value, scroll to the bottom and change the media query according to the comment! */
+                margin: 0 auto;
+            }
+
+            #header {
+                width: 462px;
+                height: 300px;
+                background-image: url(toro_bread.png);
+		    }
+
+            #flex {
+                display: flex;
+            }
+
+            aside {
+                background-color: white;
+				        border:5px double #ccdbfd;
+				        box-shadow: 0 0 15px 0 #ccdbfd;
+                width: 200px;
+                padding: 10px;
+                height:300px;
+                overflow-y:scroll;
+            }
+
+            main {
+                background-color: white;
+				        border:5px double #ccdbfd;
+				        box-shadow: 0 0 15px 0 #ccdbfd;
+                flex: 1;
+                padding: 10px;
+                order: 2;
+                height: 300px;
+                overflow: auto;
+            }
+
+             #leftSidebar {
+                order: 1;
+                margin-right: 10px;
+            }
+
+            #rightSidebar {
+                order: 3;
+                margin-left: 10px;
+            }
+
+            .scroll {
+                background-color: white;
+                border: 2px dashed #ccdbfd;
+                padding: 5px;
+				height:100px;
+				overflow-y: auto;
+            }
+
+ul {
+	list-style:url("../pixels.crd.co/assets/images/gallery06/74a3569b392a.gif?v=2942f085");
+	padding-left:25px;
+}
+
+#statuscafe {
+    background-color: white;
+    border: 2px dashed #ccdbfd;
+    padding: 7px;
+}
+
+#statuscafe-username {
+    text-align: center;
+    margin-bottom: .5px;
+    margin-top: 3px
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+a:link {
+	text-decoration: underline;
+	color: #505050;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: none;
+	font-style:italic;
+	color:white;
+	font-weight:bold;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+a:active {
+	text-decoration: none;
+	color:black;
+	font-weight: normal;
+}
+
+/* long stuff */
+
+::-moz-selection { /* Code for Firefox */
+	color: #ccdbfd;
+	background: black;
+}
+
+::selection {
+	color: #ccdbfd;
+	background: black;
+}
+
+html::before {
+   content: " ";
+   display: block;
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+   z-index: 2;
+   background-size: 100% 2px, 3px 100%;
+   pointer-events: none;
+}
+
+@font-face {
+   font-family: "VCR OSD Mono";
+   src: url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot");
+   src: url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot?#iefix")format("embedded-opentype"),
+   url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff2")format("woff2"),
+   url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff")format("woff"),
+   url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.ttf")format("truetype"),
+   url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.svg#VCR OSD Mono")format("svg");
+}
