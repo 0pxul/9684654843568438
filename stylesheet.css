@@ -1,14 +1,14 @@
 body{
 font-family:, ms gothic;
 font-size:15px;
-color:#505050;
+color:#EEEEEE;
 background-image:url("../file.garden/ZkRD3wbiZDsBIZnn/field-grass-in-the-wind_800.gif");
 background-size:cover;
 background-attachment: fixed;
 padding:10px;
 overflow:auto;
   --sb-track-color: #000000;
-  --sb-thumb-color: #ffffff;
+  --sb-thumb-color: #EEEEEE;
   --sb-size: 10px;
 }
 
@@ -35,9 +35,9 @@ h1, h2, h3 {
 }
 
 marquee {
-  background-color: white;
-	border:2px solid #ccdbfd;
-	box-shadow: 0 0 15px 0 #ccdbfd; 
+  background-color: #31363F;
+	border:2px solid #76ABAE;
+	box-shadow: 0 0 15px 0 #76ABAE; 
   margin-bottom:10px;
   padding: 5px;
 }
@@ -47,7 +47,7 @@ footer {
   border-radius:5px;
   padding:0;
   font-weight:bold;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  text-shadow: -1px -1px 0 #76ABAE, 1px -1px 0 #76ABAE, -1px 1px 0 #76ABAE, 1px 1px 0 #76ABAE;
   text-align:center;
 }
 
@@ -57,7 +57,6 @@ footer {
                 /* if you change the above value, scroll to the bottom and change the media query according to the comment! */
                 margin: 0 auto;
             }
-
             #header {
                 width: 462px;
                 height: 300px;
@@ -69,9 +68,9 @@ footer {
             }
 
             aside {
-                background-color: white;
-				        border:5px double #ccdbfd;
-				        box-shadow: 0 0 15px 0 #ccdbfd;
+                background-color: #31363F;
+				        border:5px double #76ABAE;
+				        box-shadow: 0 0 15px 0 #76ABAE;
                 width: 200px;
                 padding: 10px;
                 height:300px;
@@ -79,15 +78,28 @@ footer {
             }
 
             main {
-                background-color: white;
-				        border:5px double #ccdbfd;
-				        box-shadow: 0 0 15px 0 #ccdbfd;
+                background-color: #31363F;
+				        border:5px double #76ABAE;
+				        box-shadow: 0 0 15px 0 #76ABAE;
                 flex: 1;
                 padding: 10px;
                 order: 2;
                 height: 300px;
                 overflow: auto;
             }
+
+            hoa {
+              background-color: #404753;
+              border:4px double #5c8688;
+              box-shadow: 0 0 10px 0 #76ABAE;
+              padding: 5px;
+              order: 3;
+              display: inline-table;
+              height: 40px;
+              margin: 10px;
+              overflow: auto;
+              text-align: center;
+          }
 
              #leftSidebar {
                 order: 1;
@@ -100,10 +112,10 @@ footer {
             }
 
             .scroll {
-                background-color: white;
-                border: 2px dashed #ccdbfd;
+                background-color: #31363F;
+                border: 2px dashed #3e434e;
                 padding: 5px;
-				height:100px;
+				height:200px;
 				overflow-y: auto;
             }
 
@@ -113,8 +125,8 @@ ul {
 }
 
 #statuscafe {
-    background-color: white;
-    border: 2px dashed #ccdbfd;
+    background-color: #31363F;
+    border: 2px dashed #3e434e;
     padding: 7px;
 }
 
@@ -129,18 +141,18 @@ ul {
 
 a:link {
 	text-decoration: underline;
-	color: #505050;
+	color: #EEEEEE;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #404040;
+	color: #EEEEEE;
 }
 
 a:hover {
 	text-decoration: none;
 	font-style:italic;
-	color:white;
+	color:#76ABAE;
 	font-weight:bold;
 	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
@@ -185,4 +197,24 @@ html::before {
    url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff")format("woff"),
    url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.ttf")format("truetype"),
    url("https://db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.svg#VCR OSD Mono")format("svg");
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222831;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EEEEEE;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #76ABAE;
 }
